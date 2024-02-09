@@ -1,0 +1,19 @@
+
+
+
+
+#footer{
+    background-color: #000;
+    color:#fff;
+}
+
+.footer{
+    &-btn{
+        border-radius: 100px;
+        padding: 6px 18px;
+        width: 75px;
+        height: 24px;
+        font-size: 8px;
+        background-color: red;
+    }
+}
