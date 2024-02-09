@@ -5,15 +5,114 @@
 #footer{
     background-color: #000;
     color:#fff;
+    padding: 20px 0px;
 }
 
 .footer{
+    &-text{
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    &__inner{
+        display: flex;
+        row-gap: 16px;
+        flex-direction: column;
+        align-items: center;
+    }
     &-btn{
         border-radius: 100px;
         padding: 6px 18px;
-        width: 75px;
-        height: 24px;
-        font-size: 8px;
-        background-color: red;
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+        background-color: #fff;
+       
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    #footer{
+        padding: 20px 0px;
+        
+    }
+    .footer{
+        &-text{
+            font-size: 16px;
+            text-align: justify;
+        }
+
+        &__inner{
+            display: flex;
+            row-gap: 16px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &-btn{
+            border-radius: 100px;
+            padding: 6px 18px;
+            width: 100px;
+            height: 30px;
+            font-size: 14px;
+            background-color: #fff;
+           
+        }
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    #footer{
+        padding: 18px 0px;
+    }
+    .footer{
+        &-text{
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        &__inner{
+            display: flex;
+            row-gap: 10px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &-btn{
+            border-radius: 100px;
+            padding: 6px 18px;
+            width: 100px;
+            height: 30px;
+            font-size: 12px;
+            background-color: #fff;
+           
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #footer{
+        padding: 16px 0px;
+    }
+    .footer{
+        &-text{
+            font-size: 12px;
+        }
+
+        &__inner{
+            display: flex;
+            row-gap: 8px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &-btn{
+            border-radius: 100px;
+            padding: 6px 18px;
+            width: 75px;
+            height: 24px;
+            font-size: 10px;
+            background-color: #fff;
+           
+        }
     }
 }
