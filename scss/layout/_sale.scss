@@ -2,7 +2,7 @@
 
 #sale{
     width: 100%;
-
+    padding: 20px 0;
 }
 
 .sale{
@@ -27,6 +27,7 @@
             line-height: 112%;
             color: #1f1f1f;
             text-align: center;
+            margin-bottom: 20px;
         }
 
         &__items{
@@ -38,12 +39,13 @@
             font-size: 16px;
             line-height: 150%;
             color: #ff4053;
+            margin-bottom: 20px;
         }
         &__text{
             font-size: 16px;
             line-height: 125%;
             color: #1f1f1f;
-
+            margin-bottom: 20px;
             &-middle{
                 display: block;
                 margin-top: 5px;
@@ -58,6 +60,7 @@
             column-gap: 5px;
             border-radius: 1000px;
             padding: 5px 24px;
+            margin-bottom: 12px;
             &-text{
                 font-size: 16px;
             }
@@ -74,8 +77,24 @@
                 font-size: 32px;
                 line-height: 125%;
                 color: #1f1f1f;
+                margin-bottom: 15px;
             }
-            
+            &-sum{
+                font-size: 16px;
+                position: relative;
+                img{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 80%;
+                }
+            }
+            &-percent{
+                font-size: 16px;
+                color: #FF4053;
+                margin-left: 2px;
+            }
         }
     }
 }
