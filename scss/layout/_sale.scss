@@ -15,8 +15,18 @@
         justify-content: center;
     }
 
-    &-slider{
-        width: 345px;
+    &-sliders{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 10px;
+        img{
+            width: 345px;
+            height: 345px;
+            border: 1px solid red;
+            object-fit: contain;
+            object-position: center;
+        }
         
     }
 
