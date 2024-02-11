@@ -1,0 +1,81 @@
+
+
+#sale{
+    width: 100%;
+
+}
+
+.sale{
+
+
+    &__inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-slider{
+        width: 345px;
+        
+    }
+
+    &-content{
+        &__title{
+            font-family: PoppinsMedium;
+            font-size: 32px;
+            line-height: 112%;
+            color: #1f1f1f;
+            text-align: center;
+        }
+
+        &__items{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            row-gap: 5px;
+            font-family: PoppinsMedium;
+            font-size: 16px;
+            line-height: 150%;
+            color: #ff4053;
+        }
+        &__text{
+            font-size: 16px;
+            line-height: 125%;
+            color: #1f1f1f;
+
+            &-middle{
+                display: block;
+                margin-top: 5px;
+            }
+        }
+        &__info{
+            background-color: #F5F5F6;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 5px;
+            border-radius: 1000px;
+            padding: 5px 24px;
+            &-text{
+                font-size: 16px;
+            }
+            &-time{
+                font-family: PoppinsMedium;
+                font-size: 16px;
+                color: #b15fff;
+            }
+        }
+
+        &__price{
+            &-cash{
+                font-family: PoppinsMedium;
+                font-size: 32px;
+                line-height: 125%;
+                color: #1f1f1f;
+            }
+            
+        }
+    }
+}
